@@ -102,7 +102,7 @@ button {
   /* 
     Her bare slang jeg inn en rosa-farge, best å bytte den ut med en CSS token sånn at den følger temaet. Jeg laget en som heter `--button-primary-bg-color` du kan bruke.
   */
-  background-color: pink;
+  background-color: rgb(192, 56, 78);
   color: var(--button-color);
   font-size: var(--button-font-size);
   line-height: var(--button-line-height);
@@ -165,7 +165,7 @@ button {
 }
 
 .preview {
-  border: 1px solid hsla(203, 50%, 30%, 0.15);
+  border: 1px solid hsla(203, 77%, 51%, 0.15);
   box-shadow: rgba(0, 0, 0, 0.1) 0 1px 3px 0;
   border-radius: 5px;
   overflow: hidden;
